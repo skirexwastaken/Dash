@@ -11,7 +11,7 @@ Designed and developed by Daniel Hora
 
 ## Settup Guide
 
-> First things first, you will need to install python together with pip, the newest versions of both .
+> First things first, you will need to install python together with pip, the newest versions of both.
 
 > After installing pip you need to run the following command using a terminal in the application folder to install all needed libraries: pip install -r requirements.txt
 
