@@ -52,7 +52,3 @@ Designed and developed by Daniel Hora
 > Sticky Notes -> This tool is similar to mindmap, but the notes can't be connected with red lines
 
 > Text Note -> This tool is esentially a light weight text editor that allows you to write text notes, save them and load them
-
-### Developer Note:
-
-> If you have any questions, you can contact our customer support using the following email: hora.daniel@protonmail.com
