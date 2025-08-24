@@ -1,6 +1,6 @@
 # Dash: Simple and light weight project manager
 
-Designed and developed by Daniel Hora
+Designed and developed by Daniel
 
 ## Developer Note: 
 
