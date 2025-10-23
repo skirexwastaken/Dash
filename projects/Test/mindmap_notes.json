@@ -1,0 +1,32 @@
+{
+  "notes": [
+    {
+      "x": 347,
+      "y": 196,
+      "title": "Test",
+      "text": "",
+      "width": 240,
+      "height": 321
+    },
+    {
+      "x": 758,
+      "y": 209,
+      "title": "Test",
+      "text": "",
+      "width": 240,
+      "height": 321
+    }
+  ],
+  "connections": [
+    {
+      "start": {
+        "note_index": 0,
+        "side": "right"
+      },
+      "end": {
+        "note_index": 1,
+        "side": "left"
+      }
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+    "appearance": "dark",
+    "theme": "blue",
+    "fullscreen": 1,
+    "key_binds": {
+        "to_do_list_tool": "<F1>",
+        "calendar_tool": "<F2>",
+        "mindmap_tool": "<F3>",
+        "check_list_tool": "<F4>",
+        "sticky_notes_tool": "<F5>",
+        "text_note_tool": "<F6>"
+    },
+    "enabled_tools": {
+        "to_do_list_tool": true,
+        "calendar_tool": true,
+        "mindmap_tool": true,
+        "check_list_tool": true,
+        "sticky_notes_tool": true,
+        "text_note_tool": true
+    }
+}
