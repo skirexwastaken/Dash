@@ -1,13 +1,7 @@
 # Dash: Simple and light weight project manager
+Dash is a simple and light weight project manager written in Python.
 
-## Developer Note: 
-As of right now, the application is mainly optimized to run in 1920x1080 resolution, support for more resolutions will be available in future releases.
-
-The main library behind the GUI, customtkinter, seems to be currently not fully supported on linux. 
-
-Due to time constrains I was not able to design separate GUI for linux but it would be the first thing I would do if I had more time.
-
-However you can still find pictures of how the GUI is supposed to look like in screenshots folder.
+It uses the customTkinter library for all of its GUI.
 
 ## Settup Guide
 First things first, you will need to install python together with pip, the newest versions of both.
@@ -18,33 +12,44 @@ Now you should be able to run Dash.py using a terminal in the application folder
 
 ## Use Guide
 
-### Upon opening Dash, you will end up in a main menu, there will be 4 buttons:
-New Project -> Here you can create a new project
+### Main Menu
+Upon opening Dash, you will end up in a main menu, there will be 4 buttons:
 
-Load Project -> Here you can load your existing projects
+1. New Project -> Here you can create a new project
 
-Settings -> Here you can find Dash settings: Appearance, Themes, Tools and Key Binds:
+2. Load Project -> Here you can load your existing projects
 
-Exit -> This button turns off the application
+3. Settings -> Here you can find Dash settings: Appearance, Themes, Tools and Key Binds:
+
+4. Exit -> This button turns off the application
 
 ### Different Settings
-Appearance -> You can switch on/off fullscreen mode there and switch between light/dark mode
+Dash offers different settings that allow you to customize the app to your liking:
 
-Themes -> You can switch between blue, dark blue and green color themes
+1. Appearance -> You can switch on/off fullscreen mode there and switch between light/dark mode
 
-Tools -> You can disabled certain tools that you don't need, these will no longer display in Project Manager
+2. Themes -> You can switch between blue, dark blue and green color themes
 
-Key Binds -> You can set different key binds to each tool here
+3. Tools -> You can disabled certain tools that you don't need, these will no longer display in Project Manager
 
-### Project manager is the main menu you will get to after creating or loading a project, you will find the following tools there:
-To Do List -> This tool allows you to manage your tasks easily: You can create a task there and move it between To Do, In Progress and Done
+4. Key Binds -> You can set different key binds to each tool here
 
-Calendar -> This tool allows you to add notes to specific days in a month, such as deadlines or what needs to be done on that day
+### Workspace
+After creating or loading a project, you will end up in the Workspace menu, you will find the following tools there:
 
-Mind map -> This tool allows you to to add sticky notes on a white board and connect them with red lines. This can be used to connect logical parts together
+1. To Do List -> This tool allows you to manage your tasks easily: You can create a task there and move it between To Do, In Progress and Done
 
-Check List -> This tool is similar to To Do List, however added tasks can be directly marked as finished
+2. Calendar -> This tool allows you to add notes to specific days in a month, such as deadlines or what needs to be done on that day
 
-Sticky Notes -> This tool is similar to mindmap, but the notes can't be connected with red lines
+3. Mind map -> This tool allows you to to add sticky notes on a white board and connect them with red lines. This can be used to connect logical parts together
 
-Text Note -> This tool is esentially a light weight text editor that allows you to write text notes, save them and load them
+4. Check List -> This tool is similar to To Do List, however added tasks can be directly marked as finished
+
+5. Sticky Notes -> This tool is similar to mindmap, but the notes can't be connected with red lines
+
+6. Text Note -> This tool is esentially a light weight text editor that allows you to write text notes, save them and load them
+
+## Developer Note: 
+As of right now, the application is mainly optimized to run in 1920x1080 resolution, support for more resolutions will be available in future releases.
+
+The main library behind the GUI, customtkinter, seems to currently be not fully supported on linux. Possible linux/windows theme might be added in the future.
