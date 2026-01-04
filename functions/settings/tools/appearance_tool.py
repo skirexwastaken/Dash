@@ -20,7 +20,7 @@ def appearance_screen(self):
         master=self.appearance_gui,
         text="Fullscreen",
         font=("Arial", 40, "bold"),
-        command=lambda: (self.root.attributes("-fullscreen", not self.root.attributes("-fullscreen")),self.settings_change("fullscreen", self.root.attributes("-fullscreen")))
+        command=lambda: (self.root.attributes("-fullscreen", not self.root.attributes("-fullscreen")),self.settings_change("fullscreen", not(self.root.attributes("-fullscreen"))))
     )
 
     full_screen_button.pack(pady=20)
